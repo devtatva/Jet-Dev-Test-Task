@@ -39,6 +39,14 @@
 		4E677C4727322FA4006E325E /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E677C3527322FA4006E325E /* Lato-Semibold.ttf */; };
 		4E677C4827322FA5006E325E /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E677C3627322FA4006E325E /* Lato-ThinItalic.ttf */; };
 		4E677C4C273230E5006E325E /* UIFont+JetDevs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E677C4B273230E5006E325E /* UIFont+JetDevs.swift */; };
+		6526A7CE2947234600DF5683 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6526A7CD2947234600DF5683 /* LoginViewController.xib */; };
+		6526A7D3294723AE00DF5683 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6526A7D2294723AE00DF5683 /* LoginViewController.swift */; };
+		6526A7D5294723E100DF5683 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6526A7D4294723E100DF5683 /* LoginViewModel.swift */; };
+		6526A7D82947249100DF5683 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6526A7D72947249100DF5683 /* Utility.swift */; };
+		6526A7DA294724D600DF5683 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6526A7D9294724D600DF5683 /* UIViewController+Extensions.swift */; };
+		6526A7DC2947254B00DF5683 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6526A7DB2947254B00DF5683 /* UITextField+Extension.swift */; };
+		6526A7DF2947259C00DF5683 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6526A7DE2947259C00DF5683 /* Result.swift */; };
+		6526A7E1294725A500DF5683 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6526A7E0294725A500DF5683 /* User.swift */; };
 		9EC6505DC386FCB04480F4BB /* Pods_JetDevsHomeWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00AF71BC0DB1CFCDB921924 /* Pods_JetDevsHomeWork.framework */; };
 		9FBC8F0B168679446BE08275 /* Pods_JetDevsHomeWorkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E168756431AD9B671DACC28B /* Pods_JetDevsHomeWorkTests.framework */; };
 		DD9CD5C395D5FAE03F59B68E /* Pods_JetDevsHomeWork_JetDevsHomeWorkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FFF8B3EB514C818C31135B /* Pods_JetDevsHomeWork_JetDevsHomeWorkUITests.framework */; };
@@ -103,6 +111,14 @@
 		4E677C3527322FA4006E325E /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
 		4E677C3627322FA4006E325E /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
 		4E677C4B273230E5006E325E /* UIFont+JetDevs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+JetDevs.swift"; sourceTree = "<group>"; };
+		6526A7CD2947234600DF5683 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		6526A7D2294723AE00DF5683 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6526A7D4294723E100DF5683 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		6526A7D72947249100DF5683 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		6526A7D9294724D600DF5683 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		6526A7DB2947254B00DF5683 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		6526A7DE2947259C00DF5683 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		6526A7E0294725A500DF5683 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B2FFF8B3EB514C818C31135B /* Pods_JetDevsHomeWork_JetDevsHomeWorkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JetDevsHomeWork_JetDevsHomeWorkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EC5ABA8B83EB7FC725CD65 /* Pods-JetDevsHomeWorkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetDevsHomeWorkTests.release.xcconfig"; path = "Target Support Files/Pods-JetDevsHomeWorkTests/Pods-JetDevsHomeWorkTests.release.xcconfig"; sourceTree = "<group>"; };
 		CB6150528480C26B23B54A3E /* Pods-JetDevsHomeWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetDevsHomeWork.debug.xcconfig"; path = "Target Support Files/Pods-JetDevsHomeWork/Pods-JetDevsHomeWork.debug.xcconfig"; sourceTree = "<group>"; };
@@ -164,7 +180,9 @@
 		4E677BCC272B827F006E325E /* JetDevsHomeWork */ = {
 			isa = PBXGroup;
 			children = (
+				6526A7DD2947258D00DF5683 /* Model */,
 				4E677C12272B860A006E325E /* Common */,
+				6526A7CC294722FA00DF5683 /* Login */,
 				4E677C01272B8367006E325E /* Account */,
 				4E677C00272B8360006E325E /* Home */,
 				4E677BFD272B82D9006E325E /* TabBar */,
@@ -242,6 +260,7 @@
 		4E677C12272B860A006E325E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				6526A7D62947248200DF5683 /* Utility */,
 				4E677C4927323092006E325E /* Extension */,
 				4E677C13272B862C006E325E /* Constants */,
 			);
@@ -285,6 +304,8 @@
 			isa = PBXGroup;
 			children = (
 				4E677C4A273230A4006E325E /* UIFont */,
+				6526A7D9294724D600DF5683 /* UIViewController+Extensions.swift */,
+				6526A7DB2947254B00DF5683 /* UITextField+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -295,6 +316,57 @@
 				4E677C4B273230E5006E325E /* UIFont+JetDevs.swift */,
 			);
 			path = UIFont;
+			sourceTree = "<group>";
+		};
+		6526A7CC294722FA00DF5683 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6526A7D02947237000DF5683 /* ViewModel */,
+				6526A7D12947238E00DF5683 /* ViewController */,
+				6526A7CF2947236400DF5683 /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6526A7CF2947236400DF5683 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6526A7D02947237000DF5683 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6526A7D4294723E100DF5683 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6526A7D12947238E00DF5683 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6526A7CD2947234600DF5683 /* LoginViewController.xib */,
+				6526A7D2294723AE00DF5683 /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6526A7D62947248200DF5683 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				6526A7D72947249100DF5683 /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		6526A7DD2947258D00DF5683 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6526A7DE2947259C00DF5683 /* Result.swift */,
+				6526A7E0294725A500DF5683 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C87474AC52CF468FB6DCCA19 /* Pods */ = {
@@ -437,6 +509,7 @@
 				4E677C3927322FA4006E325E /* Lato-Medium.ttf in Resources */,
 				4E677C3D27322FA4006E325E /* Lato-HeavyItalic.ttf in Resources */,
 				4E677C4127322FA4006E325E /* Lato-MediumItalic.ttf in Resources */,
+				6526A7CE2947234600DF5683 /* LoginViewController.xib in Resources */,
 				4E677BD7272B8282006E325E /* Assets.xcassets in Resources */,
 				4E677C4327322FA4006E325E /* Lato-Bold.ttf in Resources */,
 				4E677C19272B88A6006E325E /* HomeViewController.xib in Resources */,
@@ -597,12 +670,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E677BFF272B8319006E325E /* BaseTabBarController.swift in Sources */,
+				6526A7DF2947259C00DF5683 /* Result.swift in Sources */,
 				4E677C10272B8455006E325E /* AccountViewController.swift in Sources */,
 				4E677BD2272B827F006E325E /* ViewController.swift in Sources */,
 				4E677C4C273230E5006E325E /* UIFont+JetDevs.swift in Sources */,
+				6526A7D3294723AE00DF5683 /* LoginViewController.swift in Sources */,
+				6526A7E1294725A500DF5683 /* User.swift in Sources */,
 				4E677C15272B8650006E325E /* Constants.swift in Sources */,
+				6526A7DA294724D600DF5683 /* UIViewController+Extensions.swift in Sources */,
 				4E677BCE272B827F006E325E /* AppDelegate.swift in Sources */,
+				6526A7D82947249100DF5683 /* Utility.swift in Sources */,
+				6526A7DC2947254B00DF5683 /* UITextField+Extension.swift in Sources */,
 				4E677C18272B88A6006E325E /* HomeViewController.swift in Sources */,
+				6526A7D5294723E100DF5683 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
