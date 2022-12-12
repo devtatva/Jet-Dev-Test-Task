@@ -1,10 +1,3 @@
-//
-//  UITextField+Extension.swift
-//  JetDevsHomeWork
-//
-//  Created by pcq186 on 12/12/22.
-//
-
 import UIKit
 
 extension UITextField {

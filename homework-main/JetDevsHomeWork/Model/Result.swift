@@ -1,28 +1,21 @@
-//
-//  Result.swift
-//  JetDevsHomeWork
-//
-//  Created by pcq186 on 12/12/22.
-//
-
 import Foundation
 
 struct Result: Codable {
     
-    let result: Int?
+    let resultStatus: Int?
     let errorMessage: String?
     let data: UserData?
 
     enum CodingKeys: String, CodingKey {
 
-        case result = "result"
+        case resultStatus = "result"
         case errorMessage = "error_message"
         case data = "data"
     }
 
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
-        result = try values.decodeIfPresent(Int.self, forKey: .result)
+        resultStatus = try values.decodeIfPresent(Int.self, forKey: .resultStatus)
         errorMessage = try values.decodeIfPresent(String.self, forKey: .errorMessage)
         data = try values.decodeIfPresent(UserData.self, forKey: .data)
     }

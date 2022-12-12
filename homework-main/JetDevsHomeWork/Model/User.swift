@@ -1,10 +1,3 @@
-//
-//  User.swift
-//  JetDevsHomeWork
-//
-//  Created by pcq186 on 12/12/22.
-//
-
 import Foundation
 
 struct User: Codable {
